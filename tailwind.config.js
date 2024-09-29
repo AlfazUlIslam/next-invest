@@ -9,9 +9,11 @@ export default {
     colors: {
       niPurple: "#5E4DCD",
       niPink: "#FFD2DD",
-      niGreyPrimary: "#999999",
-      niGreySecondary: "#333333",
-      white: "#FFFFFF"
+      niGreyPrimary: "#333333",
+      niGreySecondary: "#999999",
+      niGreyProgress: "#ECECEC",
+      white: "#FFFFFF",
+      glass: "rgba(255,255,255,0.8)"
     },
     fontFamily: {
       josefinSans: "'Josefin Sans', sans-serif"
