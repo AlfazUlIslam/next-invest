@@ -1,0 +1,19 @@
+@keyframes slide-up-animation {
+    0% {
+        transform: translateY(6rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+.slide-up {
+    animation: slide-up-animation 0.8s;
+}
+
+/* nav {
+    background: tomato;
+    width: 100%;
+    position: absolute;
+    top: 0;
+} */
