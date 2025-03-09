@@ -4,6 +4,7 @@ const PaidOut = () => {
   return (
     // paid out
     <section
+      id="paid-out"
       className="bg-center bg-cover bg-no-repeat"
       style={{backgroundImage: `url(${paidOutImage})`}}
     >

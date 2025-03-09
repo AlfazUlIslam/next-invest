@@ -22,10 +22,10 @@ const Navbar = () => {
         </div>
         {/* nav links */}
         <div className="hidden md:block md:space-x-8">
-          <NavLink content="Home" />
-          <NavLink content="Offerings" />
-          <NavLink content="Paid Out" />
-          <NavLink content="Apply" />
+          <NavLink href="home" content="Home" />
+          <NavLink href="offerings" content="Offerings" />
+          <NavLink href="paid-out" content="Paid Out" />
+          <NavLink href="apply" content="Apply" />
         </div>
         {/* buttons */}
         <div className="hidden md:flex md:gap-[16px]">
@@ -42,10 +42,10 @@ const Navbar = () => {
           </button>
           {/* mobile menu */}
           <div className={`${toggle ? "flex" : "hidden"} max-w-[9rem] absolute top-14 -right-4 slide-up flex-col items-center gap-2 bg-white shadow-xl rounded-lg p-6`}>
-            <NavLink content="Home" />
-            <NavLink content="Offerings" />
-            <NavLink content="Paid Out" />
-            <NavLink content="Apply" />
+            <NavLink href="home" content="Home" />
+            <NavLink href="offerings" content="Offerings" />
+            <NavLink href="paid-out" content="Paid Out" />
+            <NavLink href="apply" content="Apply" />
             {/* buttons */}
             <div className="flex flex-col items-center gap-2">
               <NavButton content="LOGIN" />

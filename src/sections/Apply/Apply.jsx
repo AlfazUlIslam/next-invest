@@ -4,7 +4,7 @@ import { cuate } from "../../assets"
 const Apply = () => {
   return (
     // apply
-    <section>
+    <section id="apply">
       {/* container */}
       <div className="container px-6 py-[60px] flex flex-col gap-[40px] items-center lg:py-[180px] lg:flex-row lg:gap-0 lg:justify-between">
         {/* content */}

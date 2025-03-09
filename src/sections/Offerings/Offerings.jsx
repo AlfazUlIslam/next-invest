@@ -4,7 +4,7 @@ import { skyscraper, highway, buildingWithTrees, laptop, office, paddy } from ".
 const Offerings = () => {
   return (
     // offerings
-    <section>
+    <section id="offerings">
       {/* container */}
       <div className="container px-6 py-[60px] lg:py-[160px]">
         {/* content */}

@@ -5,6 +5,7 @@ const Banner = () => {
   return (
     // banner
     <section
+      id="home"
       className="bg-center bg-cover bg-no-repeat"
       style={{backgroundImage: `url(${bannerImage})`}}
     >
