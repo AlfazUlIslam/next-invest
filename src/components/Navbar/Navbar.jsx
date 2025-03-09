@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     // nav bar 
-    <nav className="w-[100%] absolute">
+    <nav>
       {/* container */}
       <div className="container p-6 flex justify-between items-center">
         {/* logo */}
