@@ -35,7 +35,10 @@ const Footer = () => {
                 className="border border-niGreySecondary pl-2 flex-1"
               />
               {/* button */}
-              <button className="w-[30px] h-[30px] rounded-r-[4px] bg-niPurple border border-niPurple sm:w-[50px] sm:h-[50px] sm:rounded-r-[8px]">
+              <button 
+                className="w-[30px] h-[30px] rounded-r-[4px] bg-niPurple border border-niPurple sm:w-[50px] sm:h-[50px] sm:rounded-r-[8px]"
+                onClick={(e) => e.preventDefault()}
+              >
                 <img className="w-[20px] h-[20px] mx-auto sm:w-auto sm:h-auto" src={caretRight} alt="Right Caret" />
               </button>
             </div>
